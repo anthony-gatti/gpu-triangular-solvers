@@ -1,6 +1,5 @@
 #include <cuda_runtime.h>
 #include <iostream>
-#include "kernels.cuh"
 
 // CUDA kernel declarations for direct solvers
 __global__ void forward_substitution_kernel(int n, const int *row_ptr, const int *col_ind, const double *values, const double *b, double *x);
