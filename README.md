@@ -77,7 +77,7 @@ Optimizing direct solvers by accounting for cache fetch forward policies can sig
 2. **Clone the Repository:**
    ```bash
    git clone <gpu-triangular-solvers>
-   cd <gpu-triangular-solvers>
+   cd gpu-triangular-solvers
    ```
 3. **Compile the Code**
    ```bash
