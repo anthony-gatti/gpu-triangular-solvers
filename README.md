@@ -6,12 +6,12 @@ This project implements lower and upper triangular solvers using CUDA, leveragin
 ## Results at a glance
 
 <figure>
-  <img src="table" alt="Average Triangular Solve kernel execution time (ms) across matrices" width="720">
+  <img src="results_graph.png" alt="Average Triangular Solve kernel execution time (ms) across matrices" width="720">
   <figcaption><sub><em>Average execution time by matrix (increasing NNZ order). Formats compared: Forward Substitution (navy), Backward Substitution (orange), Jacobi Lower (green), Jacobi Upper (blue).</em></sub></figcaption>
 </figure>
 
 <figure>
-  <img src="results_graph.png" alt="Matrix stats (rows, columns, NNZ) for the benchmark suite" width="720">
+  <img src="results_table.png" alt="Matrix stats (rows, columns, NNZ) for the benchmark suite" width="720">
   <figcaption><sub><em>Benchmark suite summary: matrix dimensions and NNZ.</em></sub></figcaption>
 </figure>
 
