@@ -3,6 +3,18 @@
 ## Overview
 This project implements lower and upper triangular solvers using CUDA, leveraging GPU acceleration. The objective is to compare the performance of direct methods (forward and backward substitution) and iterative methods (Jacobi) and optimize performance by considering cache fetch forward policies.
 
+## Results at a glance
+
+<figure>
+  <img src="table" alt="Average Triangular Solve kernel execution time (ms) across matrices" width="720">
+  <figcaption><sub><em>Average execution time by matrix (increasing NNZ order). Formats compared: Forward Substitution (navy), Backward Substitution (orange), Jacobi Lower (green), Jacobi Upper (blue).</em></sub></figcaption>
+</figure>
+
+<figure>
+  <img src="results_graph.png" alt="Matrix stats (rows, columns, NNZ) for the benchmark suite" width="720">
+  <figcaption><sub><em>Benchmark suite summary: matrix dimensions and NNZ.</em></sub></figcaption>
+</figure>
+
 ## Objectives
 - Implement lower and upper triangular solvers using CUDA.
 - Compare the performance of direct and iterative methods.
